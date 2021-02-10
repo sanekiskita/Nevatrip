@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nevatrip</title>
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    путь
+    <select name="route" id="route">
+      <option value="a-b">из А в B</option>
+      <option value="b-a">из B в A</option>
+      <option value="roundtrip">
+        из A в В и обратно в А
+      </option></select
+    ><br />
+    <div id="calendar">
+    <label id="lab_time" for="time">Выберите время</label>
+    <select name="time" id="time"></select
+    ><br /></div>
+    <label for="num">Количество билетов</label>
+    <input id="num" />
+    <button id="count_up">Посчитать</button>
+    <div id="info"></div>
+  </body>
+  <script type="module" src="./src/index.js"></script>
+</html>
