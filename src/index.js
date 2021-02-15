@@ -30,9 +30,7 @@ function Arrival_time() {
     document.querySelector('#calendar').append(select);
     one_way('a-b');
     date_check();
-    document.querySelector('#time').addEventListener('change', () => {
-      date_check();
-    });
+    document.querySelector('#time').addEventListener('change', date_check);
     roundtrip_B = true;
   }
 
@@ -41,9 +39,7 @@ function Arrival_time() {
 
     time.innerHTML = '';
     createdOption(way, time);
-    document.querySelector('#time').removeEventListener('change', () => {
-      date_check();
-    });
+    document.querySelector('#time').removeEventListener('change', date_check);
   }
 }
 
@@ -62,7 +58,6 @@ function reset() {
 
 function date_check() {
   const back = document.querySelector('#back');
-
   back.innerHTML = '';
   const enddate = newdate(document.querySelector('#time').value);
   enddate.setMinutes(enddate.getMinutes() + 50);
