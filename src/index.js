@@ -111,12 +111,12 @@ document.querySelector('#route').addEventListener('change', () => {
 });
 
 document.querySelector('#count_up').addEventListener('click', () => {
-  const sum = +document.querySelector('#num').value;
+  let sum =+0;
   const route = document.querySelector('#route');
 
   const dvi_info = document.querySelector('#info');
   const date = counting_the_date('time');
-
+  +document.querySelector('#num').value>=0?  sum = +document.querySelector('#num').value : document.querySelector('#num').value=sum;
   if (roundtrip_B === false) {
     dvi_info.innerHTML = `Вы выбрали ${sum} билета по маршруту из ${route.value
       .toUpperCase()
