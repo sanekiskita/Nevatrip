@@ -14,22 +14,22 @@
 ### **Пример данных в таблицах:**
  Таблица ticket_info
 <p align="center">
-  <img width="600"  src="/images/ticket_info.png">
+  <img width="600"  src="/images/ticket_info.PNG">
 </p>
 
  Таблица ticket_types
 <p align="center">
-  <img width="600"  src="/images/ticket_types.png">
+  <img width="600"  src="/images/ticket_types.PNG">
 </p>
 
  Таблица order_and_ticket
 <p align="center">
-  <img width="600"  src="/images/order_and_ticket.png">
+  <img width="600"  src="/images/order_and_ticket.PNG">
 </p>
 
  Таблица oreder_list
 <p align="center">
-  <img width="600"  src="/images/oreder_list.png">
+  <img width="600"  src="/images/oreder_list.PNG">
 </p>
 
 ### **Ответы на Вопросы:**
